@@ -16,11 +16,12 @@ content:
       - name: title
         label: Title
         type: string
-        minlength: 3
-        required: true
+        options:
+          minlength: 3
+          required: true
       - name: imageSrc
         label: Afbeelding
         type: image
-        required: true
         options:
           media: images                
+          required: true
