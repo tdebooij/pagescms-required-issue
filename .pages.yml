@@ -1,0 +1,25 @@
+media:
+  - name: images
+    label: Images
+    input: content/images
+    output: /images
+    path: content/images
+    extensions: [jpg, jpeg, png, webp, svg, gif]  
+
+content:
+  - name: contentItem
+    filename: "{fields.title}.md"
+    label: Item
+    type: collection
+    path: content
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: imageSrc
+        label: Afbeelding
+        type: image
+        required: true
+        options:
+          media: images                
