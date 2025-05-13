@@ -18,12 +18,10 @@ content:
         type: string
         required: true
         options:
-          minlength: 3
-          required: true
+          minlength: 3        
       - name: imageSrc
         label: Afbeelding
         type: image
         required: true
         options:
-          media: images                
-          required: true
+          media: images          
