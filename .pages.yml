@@ -16,6 +16,7 @@ content:
       - name: title
         label: Title
         type: string
+        minlength: 3
         required: true
       - name: imageSrc
         label: Afbeelding
